@@ -88,13 +88,14 @@
 - Las variables tienen reglas que son:
   - El identificador o nombre de variable no puede comenzar con un número y debe estar en minúsculas. Las palabras dentro del mismo se separan con un guión bajo
 
+## Resumen
+
 Variables: Es un lugar en memoria (una especie de caja) en el que podemos guardar objetos (números, texto, etc). Esta variable posee un identificador o nombre con el cual podemos llamarla cuando la necesitemos.
 
 Asignación de variables: En python creamos las variables asignándoles un valor de la siguiente manera:
 ```python
     <identificador> = <valor>
 ```
-
 
 en este caso el signo = se lee como “asignar”
 
@@ -127,7 +128,7 @@ Reglas en el uso de identificadores
   es_estudiante = True
 
   ```
-##Convertir un dato a un tipo diferente
+## Convertir un dato a un tipo diferente
 * Input("") para pedirle al usuario que introduzca datos.
 * int() con datos o variables dentro de parentesis para convertirlo en número entero.
 * str() para convertir números tanto decimales como enteros a strings.
