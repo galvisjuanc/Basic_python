@@ -19,14 +19,13 @@ Elige una opción: """
 opcion = int(input(menu))
 
 if opcion == 1:
-    conversor('Colombianos', 3875)
-
+    conversor('Colombianos', 5100)
 elif opcion == 2:
     conversor('Argentinos', 65)
 elif opcion == 3:
     conversor('Mexicanos', 24)
 else:
-    print('Ingrese una opción Correcta por favor')
+    print('Ingrese una opción correcta por favor...')
 
 
 ###    DOLARES A PESOS COLOMBIANOS ###

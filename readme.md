@@ -52,7 +52,7 @@
 
   - Potencia (\*\*)
 
-    2 \*\* 2 ⇒ 4
+    2 \*\* 5 ⇒ 32
 
   - Python respeta las reglas matematicas que dice
 
@@ -78,15 +78,35 @@
 - Las variables las podemos operar, lo que entendera el lenguaje es que tiene que operar el contenido de la variable, tambien podemos guardar una variable dentro de otra por ejemplo, si guardamos dos numeros en dos distintas variables y luego hacemos alguna operacion matematica, podemos guardar el resultado de esa operacion en una variable
 
   ```python
-  	numero1 = 2
-  	numero2 = 3
-  	numero_resultado = numero1 + numero2
-  	print(numero_resultado) # => 5
+    numero1 = 2
+    numero2 = 3
+    numero_resultado = numero1 + numero2
+    print(numero_resultado) # => 5
   ```
 
 - Las variables se pueden reescribir
 - Las variables tienen reglas que son:
   - El identificador o nombre de variable no puede comenzar con un número y debe estar en minúsculas. Las palabras dentro del mismo se separan con un guión bajo
+
+Variables: Es un lugar en memoria (una especie de caja) en el que podemos guardar objetos (números, texto, etc). Esta variable posee un identificador o nombre con el cual podemos llamarla cuando la necesitemos.
+
+Asignación de variables: En python creamos las variables asignándoles un valor de la siguiente manera:
+```python
+    <identificador> = <valor>
+```
+
+
+en este caso el signo = se lee como “asignar”
+
+Reasignación de variables: Podemos en cualquier momento cambiar el valor de nuestra variable volviendo a asignar un valor al mismo identificador
+<identificador> = <nuevo_valor>
+
+Reglas en el uso de identificadores
+
+* No pueden empezar con un número.
+* Deben estar en minúsculas.
+* Para separar las palabras usamos el guion bajo: _
+* Estas reglas son aplicadas al lenguaje python, en otros lenguajes pueden haber otras reglas.
 
 ## Tipos de datos
 
@@ -107,6 +127,10 @@
   es_estudiante = True
 
   ```
+##Convertir un dato a un tipo diferente
+* Input("") para pedirle al usuario que introduzca datos.
+* int() con datos o variables dentro de parentesis para convertirlo en número entero.
+* str() para convertir números tanto decimales como enteros a strings.
 
 ## Operadores lógicos y de comparacion
 
