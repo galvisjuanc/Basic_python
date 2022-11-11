@@ -17,3 +17,14 @@
 
 for i in range(10):
     print(11 * i)
+
+letra = "hola soy un programador de python"
+print(letra.upper())
+print(4 * letra)
+
+est = True
+pro = False
+print(est and pro)
+print(10 / 2 + 5 * 7)
+print(letra[0:30:2])
+print(round(10.3456,2))
